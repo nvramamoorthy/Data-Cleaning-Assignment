@@ -23,7 +23,7 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
        
 ##run_analysis.R 
         
-Variables defined and their pupose are given below:
+###Variables defined and their pupose are given below:
 
 trainData : Holds Data fetched by - read.table("./UCI-HAR-Dataset/train/X_train.txt")
 
