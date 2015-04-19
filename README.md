@@ -1,14 +1,14 @@
 # Data-Cleaning-Assignment
 
-Introduction:
+##Introduction:
 
 This document explains a project done by me as part of assignment of ONLINE  Course "Getting Data and Cleaning" offered by Johns Hopkins University through Coursera.com.
 
-Objective:
+##Objective:
 
 The purpose of this project is to demonstrate the ability to collect, work with, and clean a data set. The goal is to prepare tidy data that can be used for later analysis.
 
-Activities to be done:
+##Activities to be done:
 
 1. Create one R script called run_analysis.R that does the                                           following. 
 2. Merges the training and the test sets to create one data set.
@@ -17,7 +17,7 @@ Activities to be done:
 5. Appropriately labels the data set with descriptive variable names. 
 6. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-Environment:
+##Environment:
 
     Hardware: 
     Macbook Pro with OSX Yosimite Version 10.10.3
@@ -25,19 +25,19 @@ Environment:
     Memory: 8 GB 1067 MHz DDR3
     Internet Connection
     
-Tools:
+##Tools:
 
     RStidio 
     R for Mac OS X GUI
     GitHub Repository : https://github.com/nvramamoorthy/Data-Cleaning-Assignment
     GitHub DeskTop
     
-Data Source:
+##Data Source:
 
     http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
     https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
     
-My Activities:
+##My Activities:
 
 Created a project workspace on my Macbook and set that as working directory.
 
@@ -56,10 +56,12 @@ Coded run_analysis.R to perform the main Job of the project.
 The README.md and CodeBokk.md are authored by me to explain the functioning of run_analysis.R
 
 Initial Files & Folders in Working Directory:
+
         Folder : UCI-HAR-Dataset
         Files  : README.md (initially created while creating Repository in GitHub)
         
-Final Files & Folders in Working Directory:
+##Final Files & Folders in Working Directory:
+
         Folder: UCI-HAR-Dataset
         Files : 
                 Created by me :
@@ -76,7 +78,7 @@ Created Reopsitory on GitHub and cloned the working directory worked on the proj
 Web Link : https://github.com/nvramamoorthy/Data-Cleaning-Assignment
                 
 
-Acknowledgements:
+##Acknowledgements:
 
 I thank all staff and instructores of  Johns Hopkins ,  Coursera  and all peers who patiently evaluated my work.
 
