@@ -70,8 +70,8 @@ Initial Files & Folders in Working Directory:
                 CodeBook.md
                 
                 Created by the Code run_analysis.R 
-                data_with_means.txt
-                merged_data.txt
+                mergedData.txt
+                dataWithMeans.txt
                 
 Created Reopsitory on GitHub and cloned the working directory worked on the project and committed and synchornized so that Peers can evaluated my work. and pushed my work.
 
@@ -80,7 +80,7 @@ Web Link : https://github.com/nvramamoorthy/Data-Cleaning-Assignment
 
 ##Acknowledgements:
 
-I thank all staff and instructores of  Johns Hopkins ,  Coursera  and all peers who patiently evaluated my work.
+I thank all staff and instructore of  Johns Hopkins ,  Coursera  and all peers who patiently evaluated my work.
 
 
 

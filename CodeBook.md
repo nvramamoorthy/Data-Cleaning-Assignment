@@ -23,13 +23,46 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
        
 ##run_analysis.R 
         
-###Variables defined and their pupose are given below:
+###Step1. Merges the training and the test sets to create one data set.
 
-trainData : Holds Data fetched by - read.table("./UCI-HAR-Dataset/train/X_train.txt")
+####Variables defined and their purpose are given below:
 
-trainLabel: Holds Data fetched by - read.table("./UCI-HAR-Dataset/train/y_train.txt")
+trainData   : Holds Data fetched by - read.table("./UCI-HAR-Dataset/train/X_train.txt")
 
-trainSubject: Holds Data fetched by -  read.table("./UCI-HAR-Dataset/train/subject_train.txt")
+trainLabel  : Holds Data fetched by - read.table("./UCI-HAR-Dataset/train/y_train.txt")
+
+trainSubject: Holds Data fetched by - read.table("./UCI-HAR-Dataset/train/subject_train.txt")
+
+testData    : Holds Data fetched by - read.table("./UCI-HAR-Dataset/test/X_test.txt")
+
+testLabel   : Holds Data fetched by - read.table("./UCI-HAR-Dataset/test/y_test.txt") 
+
+testSubject : Holds Data fetched by - read.table("./UCI-HAR-Dataset/test/subject_test.txt")
+
+features    : Holds Data fetched by - read.table("./UCI-HAR-Dataset/features.txt")
+
+Other variables defined meanStdIndices, joinData , activity and a few to accomplish the extraction job.
+
+Merging the data and train and subject tables using rbind() function.
+
+Coded to perform the other steps mentioned below.
+
+###Step2   :Extracts only the measurements on the mean and standard deviation for each measurement. 
+
+###Step3   : Uses descriptive activity names to name the activities in the data set
+
+###Step4   :Appropriately labels the data set with descriptive activity names. 
+
+### Step5  :Creates a second, independent tidy data set with the average of each variable for each activity and each subject. 
+
+
+
+
+
+
+
+
+
 
 
         
