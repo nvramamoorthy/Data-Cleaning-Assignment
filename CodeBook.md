@@ -23,7 +23,7 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
        
 ##run_analysis.R 
         
-###Step1. Merges the training and the test sets to create one data set.
+###Step 1. Merges the training and the test sets to create one data set.
 
 ####Variables defined and their purpose are given below:
 
@@ -47,13 +47,28 @@ Merging the data and train and subject tables using rbind() function.
 
 Coded to perform the other steps mentioned below.
 
-###Step2   :Extracts only the measurements on the mean and standard deviation for each measurement. 
+###Step 2   :Extracts only the measurements on the mean and standard deviation for each measurement. 
 
-###Step3   : Uses descriptive activity names to name the activities in the data set
+###Step 3   : Uses descriptive activity names to name the activities in the data set
 
-###Step4   :Appropriately labels the data set with descriptive activity names. 
+###Step 4   :Appropriately labels the data set with descriptive activity names. 
 
-### Step5  :Creates a second, independent tidy data set with the average of each variable for each activity and each subject. 
+The file mergedData.txt is created.
+
+###Step 5  :Creates a second, independent tidy data set with the average of each variable for each activity and each subject. 
+
+The file dataWithMeans.txt is created.
+
+###Output :
+
+Files are available in the working directory - UCI-HAR-Dataset
+
+        mergedData.txt
+         
+        dataWithMeans.txt
+
+
+
 
 
 
