@@ -71,7 +71,7 @@ Initial Files & Folders in Working Directory:
                 
                 Created by the Code run_analysis.R 
                 mergedData.txt
-                dataWithMeans.txt
+                tidyDataWithMeans.txt
                 
 Created Reopsitory on GitHub and cloned the working directory worked on the project and committed and synchornized so that Peers can evaluated my work. and pushed my work.
 

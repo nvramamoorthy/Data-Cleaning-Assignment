@@ -8,7 +8,6 @@ trainLabel <- read.table("./UCI-HAR-Dataset/train/y_train.txt")
 trainSubject <- read.table("./UCI-HAR-Dataset/train/subject_train.txt")
 table(trainLabel)
 testData <- read.table("./UCI-HAR-Dataset/test/X_test.txt")
-testData <- read.table("./UCI-HAR-Dataset/test/X_test.txt")
 
 testLabel <- read.table("./UCI-HAR-Dataset/test/y_test.txt") 
 table(testLabel) 
@@ -26,7 +25,11 @@ joinSubject <- rbind(trainSubject, testSubject)
 features <- read.table("./UCI-HAR-Dataset/features.txt")
 
 meanStdIndices <- grep("mean\\(\\)|std\\(\\)", features[, 2])
-length(meanStdIndices) # 66
+
+#Test content of meanStdIndices
+
+length(meanStdIndices) 
+
 joinData <- joinData[, meanStdIndices]
 
 names(joinData) <- gsub("\\(\\)", "", features[meanStdIndices, 2]) # remove "()"
@@ -49,7 +52,8 @@ names(joinLabel) <- "activity"
 names(joinSubject) <- "subject"
 cleanedData <- cbind(joinSubject, joinLabel, joinData)
 
-write.table(cleanedData, "mergedData.txt") # write out the 1st dataset
+# write out the Merged dataset
+write.table(cleanedData, "mergedData.txt") 
 
 #5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject. 
 
@@ -70,6 +74,10 @@ for(i in 1:subjectLen) {
         row <- row + 1
     }
 }
-head(result)
-write.table(result, "dataWithMeans.txt") # write out the 2nd dataset
 
+#Test output
+head(result)
+
+# write out the Tidy Dataset file.
+write.table(result, "tidyDataWithMeans.txt", row.name=FALSE) 
+#This file is available GitHub repository https://github.com/nvramamoorthy/Data-Cleaning-Assignment

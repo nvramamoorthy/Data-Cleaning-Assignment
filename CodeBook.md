@@ -57,7 +57,7 @@ The file mergedData.txt is created.
 
 ###Step 5  :Creates a second, independent tidy data set with the average of each variable for each activity and each subject. 
 
-The file dataWithMeans.txt is created.
+The file tidyDataWithMeans.txt is created.
 
 ###Output :
 
@@ -65,7 +65,7 @@ Files are available in the working directory - UCI-HAR-Dataset
 
         mergedData.txt
          
-        dataWithMeans.txt
+        tidyDataWithMeans.txt
 
 
 
